@@ -1,0 +1,7 @@
+import integrantes.*
+
+describe "Test de los Integrantes"{
+	test "sashaAbad nacio el 2 de Febrero de 1997"{
+		assert.equals(new Date(02,02,1997), sashaAbad.fechaNacimiento())
+	}
+}
